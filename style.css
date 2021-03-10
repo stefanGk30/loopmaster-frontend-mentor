@@ -191,6 +191,7 @@ header {
     margin: 0 auto;
     display: block;
     max-width: 550px;
+    width: 100%;
   }
 
   .hero-header {
@@ -215,10 +216,26 @@ header {
     display: grid;
   }
 
+  .hero-header {
+    font-size: 3rem;
+  }
+
   .navbar {
     width: 100%;
     align-self: start;
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .hero-header {
+    font-size: 2.6rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
   }
 }
 
